@@ -4,7 +4,8 @@
 
 ## 记录约定
 
-- 每篇笔记一个主题，放在 `notes/` 下，文件名用英文小写（如 `streamlit.md`），正文用中文。
+- 每篇笔记一个主题，按类别放进 `notes/<类别>/` 下（目前只有 `python/`，以后有别的方向再建同级目录）。
+- 文件名用英文小写（如 `streamlit.md`），正文用中文。
 - **条目式速查，不照抄原文整理**。一篇笔记回答四个问题：
   1. **是什么** —— 这东西是什么
   2. **在哪用 / 能干嘛** —— 适用场景、能解决什么问题
@@ -16,10 +17,12 @@
 
 ## 索引
 
-- [Streamlit](notes/streamlit.md) — 只写 Python 就能做可交互网页，核心机制是脚本整段重跑
-- [SQLite](notes/sqlite.md) — 单文件关系型数据库，Python 标准库自带，为单机单写入者设计
-- [PyMuPDF](notes/pymupdf.md) — 把 PDF 转成文字/页码/图片/版面信息，扫描版和阅读顺序是两大坑
-- [scikit-learn](notes/scikit-learn.md) — 传统机器学习工具箱，负责特征、聚类、分类和评估
-- [pytest](notes/pytest.md) — 自动化测试框架，防回归，让改代码和重构有底气
-- [FastAPI](notes/fastapi.md) — 后端 API 框架，Streamlit 给人看界面、它给程序调接口
-- [charset-normalizer](notes/charset-normalizer.md) — 猜测文本编码，解决中文 TXT 乱码和 UnicodeDecodeError
+### Python 生态
+
+- [Streamlit](notes/python/streamlit.md) — 只写 Python 就能做可交互网页，核心机制是脚本整段重跑
+- [SQLite](notes/python/sqlite.md) — 单文件关系型数据库，Python 标准库自带，为单机单写入者设计
+- [PyMuPDF](notes/python/pymupdf.md) — 把 PDF 转成文字/页码/图片/版面信息，扫描版和阅读顺序是两大坑
+- [scikit-learn](notes/python/scikit-learn.md) — 传统机器学习工具箱，负责特征、聚类、分类和评估
+- [pytest](notes/python/pytest.md) — 自动化测试框架，防回归，让改代码和重构有底气
+- [FastAPI](notes/python/fastapi.md) — 后端 API 框架，Streamlit 给人看界面、它给程序调接口
+- [charset-normalizer](notes/python/charset-normalizer.md) — 猜测文本编码，解决中文 TXT 乱码和 UnicodeDecodeError
