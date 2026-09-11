@@ -21,3 +21,5 @@
 - [PyMuPDF](notes/pymupdf.md) — 把 PDF 转成文字/页码/图片/版面信息，扫描版和阅读顺序是两大坑
 - [scikit-learn](notes/scikit-learn.md) — 传统机器学习工具箱，负责特征、聚类、分类和评估
 - [pytest](notes/pytest.md) — 自动化测试框架，防回归，让改代码和重构有底气
+- [FastAPI](notes/fastapi.md) — 后端 API 框架，Streamlit 给人看界面、它给程序调接口
+- [charset-normalizer](notes/charset-normalizer.md) — 猜测文本编码，解决中文 TXT 乱码和 UnicodeDecodeError
