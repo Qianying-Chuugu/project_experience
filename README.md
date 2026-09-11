@@ -16,3 +16,4 @@
 ## 索引
 
 - [Streamlit](notes/streamlit.md) — 只写 Python 就能做可交互网页，核心机制是脚本整段重跑
+- [SQLite](notes/sqlite.md) — 单文件关系型数据库，Python 标准库自带，为单机单写入者设计
